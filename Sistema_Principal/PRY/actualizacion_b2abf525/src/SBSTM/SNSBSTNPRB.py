@@ -20,7 +20,7 @@ CMFG_DIR    = SBSTM_DIR.parent
 CELEBRO_DIR = CMFG_DIR.parent
 ROOT_DIR    = CELEBRO_DIR.parent.parent
 try:
-    from STM_CH.rutas import PSNRL_DIR as PSNRL_DIR
+    from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_CH.rutas import PSNRL_DIR as PSNRL_DIR
 except ImportError:
     PSNRL_DIR = CELEBRO_DIR / "PSNRL"
 PSNRL_DIR.mkdir(parents=True, exist_ok=True)
@@ -58,11 +58,11 @@ def _importar_nucleo():
     try:
         from LC.celebro.BKSVCB import get_blockchain_server, iniciar_servidor_blockchain
     except ImportError:
-        from STM_BKCH.BKSVCB import get_blockchain_server, iniciar_servidor_blockchain
+        from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_BKCH.BKSVCB import get_blockchain_server, iniciar_servidor_blockchain
     try:
         from LC.celebro.CMFG.PSNRCV import get_conversor_pesos
     except ImportError:
-        from STM_BKCH.compat_local import get_conversor_pesos
+        from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_BKCH.compat_local import get_conversor_pesos
     try:
         from LC.celebro.CMFG.pesos_vivos import get_gestor_pesos_vivos
     except ImportError:
@@ -73,7 +73,7 @@ def _importar_nucleo():
 # ─── CLIENTE OLLAMA ──────────────────────────────────────────────────────────
 OLLAMA_URL  = "http://localhost:11434"
 try:
-    from STM_JSON.registro_json import ruta_de as _ruta_json
+    from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_JSON.registro_json import ruta_de as _ruta_json
     IA_CFG_PATH = _ruta_json("ialocal")
 except Exception:
     IA_CFG_PATH = ROOT_DIR / "LC" / "modelosIAlocal" / "IAlocal.json"

@@ -12,7 +12,7 @@ from typing import Any, Dict, List, Optional, Tuple
 PAQUETE_DIR: Path = Path(__file__).resolve().parent
 IADS_BR: Path = PAQUETE_DIR.parent / "IADS_BR"
 try:
-    from STM_CH.rutas import STM_CH_DIR
+    from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_CH.rutas import STM_CH_DIR
     ESTADO_ULTIMO: Path = STM_CH_DIR / "ialocal_ultimo.txt"
 except ImportError:
     ESTADO_ULTIMO = PAQUETE_DIR / "ialocal_ultimo.txt"

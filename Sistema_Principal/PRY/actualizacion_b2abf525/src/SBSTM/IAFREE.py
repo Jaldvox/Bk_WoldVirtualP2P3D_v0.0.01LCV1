@@ -38,7 +38,7 @@ LC_DIR: Final[Path] = CELEBRO_DIR.parent.resolve()
 ROOT_DIR: Final[Path] = LC_DIR.parent.resolve()
 ENV_FILE: Final[Path] = ROOT_DIR / ".env"
 try:
-    from STM_CH.rutas import CACHE_IAFREE as CACHE_FILE
+    from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_CH.rutas import CACHE_IAFREE as CACHE_FILE
 except ImportError:
     CACHE_FILE: Final[Path] = PACKAGE_ROOT / "openrouter_free_cache.json"
 
@@ -101,7 +101,7 @@ class GestorModelosGratuitos:
             except Exception:
                 pass
         try:
-            from STM_SGR.vault_openrouter import obtener_key
+            from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_SGR.vault_openrouter import obtener_key
             clave_vault = obtener_key()
             if clave_vault and len(clave_vault) > 10:
                 return clave_vault

@@ -37,7 +37,7 @@ for _p in (LC_DIR, ROOT_DIR, CONTRRF_DIR):
     if str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
 try:
-    from STM_CH.rutas import inicializar as _stmch_init
+    from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_CH.rutas import inicializar as _stmch_init
     _stmch_init()
 except Exception:
     pass
@@ -52,7 +52,7 @@ try:
     from LC.celebro.CMFG.SBSTM.IAFREE import ClienteIAFree, get_cliente_iafree  # pyrefly: ignore[missing-import]
 except Exception:
     try:
-        from SBSTM.IAFREE import ClienteIAFree, get_cliente_iafree
+        from Sistema_Principal.PRY.actualizacion_b2abf525.src.SBSTM.IAFREE import ClienteIAFree, get_cliente_iafree
     except Exception:
         get_cliente_iafree = None
         ClienteIAFree = None
@@ -60,7 +60,7 @@ try:
     from LC.celebro.CMFG.SBSTM.STYLOS import ( ColoresLucIA, EstiloTerminalLucIA, Glifos, badge_turno, banner_bienvenida, formatear_respuesta_lucia, panel_ayuda_comandos, )  # pyrefly: ignore[missing-import]
 except Exception:
     try:
-        from SBSTM.STYLOS import ( ColoresLucIA, EstiloTerminalLucIA, Glifos, badge_turno, banner_bienvenida, formatear_respuesta_lucia, panel_ayuda_comandos, )
+        from Sistema_Principal.PRY.actualizacion_b2abf525.src.SBSTM.STYLOS import ( ColoresLucIA, EstiloTerminalLucIA, Glifos, badge_turno, banner_bienvenida, formatear_respuesta_lucia, panel_ayuda_comandos, )
     except Exception:
         EstiloTerminalLucIA = None
 try:
@@ -68,7 +68,7 @@ try:
     _RPLC_DISPONIBLE = True
 except Exception:
     try:
-        from SBSTM.RPLC import ( get_procesador_rplc, reprocesar_con_metricas, )
+        from Sistema_Principal.PRY.actualizacion_b2abf525.src.SBSTM.RPLC import ( get_procesador_rplc, reprocesar_con_metricas, )
         _RPLC_DISPONIBLE = True
     except Exception:
         _RPLC_DISPONIBLE = False
@@ -79,7 +79,7 @@ try:
     _VOZ_DISPONIBLE = True
 except Exception:
     try:
-        from SBSTM.voice_engine import ( cancel_speech as _cancelar_voz, configurar_prosodia_juvenil as _prosodia_voz, speak as _hablar_voz, )
+        from Sistema_Principal.PRY.actualizacion_b2abf525.src.SBSTM.voice_engine import ( cancel_speech as _cancelar_voz, configurar_prosodia_juvenil as _prosodia_voz, speak as _hablar_voz, )
         _VOZ_DISPONIBLE = True
     except Exception:
         _VOZ_DISPONIBLE = False
@@ -119,7 +119,7 @@ class GestorEntornoSeguro:
     @classmethod
     def obtener_openrouter_key(cls) -> str:
         try:
-            from STM_SGR.vault_openrouter import obtener_key
+            from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_SGR.vault_openrouter import obtener_key
             key = obtener_key()
             if key:
                 return key
@@ -128,19 +128,19 @@ class GestorEntornoSeguro:
         vars_env = cls.cargar_variables()
         return vars_env.get("OPENROUTER_API_KEY", os.getenv("OPENROUTER_API_KEY", "")).strip()
 try:
-    from SBSTM.selector_modelos import SelectorModelos
+    from Sistema_Principal.PRY.actualizacion_b2abf525.src.SBSTM.selector_modelos import SelectorModelos
 except ImportError:
     try:
-        from src.SBSTM.selector_modelos import SelectorModelos
+        from Sistema_Principal.PRY.actualizacion_b2abf525.src.SBSTM.selector_modelos import SelectorModelos
     except ImportError:
         SelectorModelos = object
 try:
-    from SBSTM.accesores import GestorHRTLucIA, GestorJSONLucIA
+    from Sistema_Principal.PRY.actualizacion_b2abf525.src.SBSTM.accesores import GestorHRTLucIA, GestorJSONLucIA
 except ImportError:
     GestorJSONLucIA = None  # type: ignore
     GestorHRTLucIA = None  # type: ignore
 try:
-    from STM_IA.modelosIAlocal.IALOCAL import get_gestor_ialocal
+    from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_IA.modelosIAlocal.IALOCAL import get_gestor_ialocal
 except ImportError:
     get_gestor_ialocal = None  # type: ignore
 class OrquestadorSistemaLucIA(SelectorModelos):
@@ -159,7 +159,7 @@ class OrquestadorSistemaLucIA(SelectorModelos):
         """Inicializa en secuencia la blockchain, transductor, IAFREE y credenciales."""
         GestorEntornoSeguro.cargar_variables()
         try:
-            from STM_SGR.vault_openrouter import confirmar_conexion
+            from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_SGR.vault_openrouter import confirmar_conexion
             confirmar_conexion()
         except Exception:
             pass
@@ -176,7 +176,7 @@ class OrquestadorSistemaLucIA(SelectorModelos):
             try:
                 from LC.celebro.BKSVCB import get_blockchain_server, iniciar_servidor_blockchain  # pyrefly: ignore[missing-import]
             except ImportError:
-                from STM_BKCH.BKSVCB import get_blockchain_server, iniciar_servidor_blockchain
+                from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_BKCH.BKSVCB import get_blockchain_server, iniciar_servidor_blockchain
             self.servidor_bks = get_blockchain_server()
             print(f"  [1/4] Blockchain BKSVCB    : \033[38;5;48mACTIVA\033[0m | Bloques: \033[38;5;220m{len(self.servidor_bks.cadena)}\033[0m")
             self.servidor_bks.mostrar_cadena_hashes_terminal()
@@ -188,7 +188,7 @@ class OrquestadorSistemaLucIA(SelectorModelos):
             try:
                 from LC.celebro.CMFG.PSNRCV import get_conversor_pesos  # pyrefly: ignore[missing-import]
             except ImportError:
-                from STM_BKCH.compat_local import get_conversor_pesos
+                from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_BKCH.compat_local import get_conversor_pesos
             self.conversor_psn = get_conversor_pesos()
             num_neu = len(self.conversor_psn.neuronas)
             print(f"  [2/4] Conversor PSNRCV     : \033[38;5;48mOK\033[0m | Sinapsis: \033[38;5;141m{num_neu} Activas\033[0m")
@@ -205,7 +205,7 @@ class OrquestadorSistemaLucIA(SelectorModelos):
             try:
                 from LC.celebro.CMFG.SBSTM import obtener_clase_sesion  # pyrefly: ignore[missing-import]
             except ImportError:
-                from SBSTM import obtener_clase_sesion
+                from Sistema_Principal.PRY.actualizacion_b2abf525.src.SBSTM import obtener_clase_sesion
             cls_sesion = obtener_clase_sesion()
             self.sesion_p2p = cls_sesion()
             print(f"  [4/4] Sesion SNSBSTNPRB    : \033[38;5;48mACOPLADA\033[0m | Motor STYLOS: \033[38;5;51mACTIVO\033[0m\n")
@@ -352,7 +352,7 @@ class OrquestadorSistemaLucIA(SelectorModelos):
                 continue
             if entrada.lower() in ("api", "apikey", "registrar api"):
                 try:
-                    from STM_SGR.vault_openrouter import registrar_key_usuario
+                    from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_SGR.vault_openrouter import registrar_key_usuario
                     registrar_key_usuario()
                 except Exception as e_api:
                     print(f"  No se pudo registrar: {e_api}")
@@ -392,7 +392,7 @@ class OrquestadorSistemaLucIA(SelectorModelos):
             print("\033[38;5;51m" + "=" * 76 + "\033[0m\n")
             self.servidor_bks = None
             try:
-                from STM_CH.rutas import limpiar as _stmch_limpiar
+                from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_CH.rutas import limpiar as _stmch_limpiar
                 res = _stmch_limpiar()
                 print(f"  STM_CH limpiado: {res.get('borrados', 0)} artefactos.")
             except Exception as e_stmch:
@@ -413,7 +413,7 @@ def obtener_diagnostico_orquestador() -> Dict[str, Any]:
     try:
         from LC.celebro.CMFG.SBSTM.IAFREE import get_cliente_iafree  # pyrefly: ignore[missing-import]
     except ImportError:
-        from SBSTM.IAFREE import get_cliente_iafree
+        from Sistema_Principal.PRY.actualizacion_b2abf525.src.SBSTM.IAFREE import get_cliente_iafree
     cliente_free = get_cliente_iafree()
     return { "orquestador_version": "2026.3.1", "iafree_activo": cliente_free.esta_autenticado(), "modelos_gratuitos_total": len(cliente_free.gestor.listar_modelos()), "modelo_predeterminado": cliente_free.gestor.obtener_modelo_activo()["id"], "costo_acumulado": cliente_free.obtener_metricas_consumo()["costo_acumulado_usd"], "timestamp": time.time(), }
 def main() -> int:
@@ -425,7 +425,7 @@ def main() -> int:
     try:
         orquestador.ejecutar_bucle_interactivo()
         try:
-            from STM_CH.rutas import limpiar as _lf
+            from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_CH.rutas import limpiar as _lf
             _lf()
         except Exception:
             pass

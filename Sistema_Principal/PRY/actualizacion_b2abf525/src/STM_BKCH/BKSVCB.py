@@ -26,10 +26,10 @@ __server_name__ = "CelebroBlockchainServer-BKSVCB"
 CELEBRO_DIR: Path = Path(__file__).parent.resolve()
 ROOT_DIR: Path = CELEBRO_DIR.parent.parent.resolve()
 try:
-    from STM_CH.rutas import PSNRL_DIR as PSNRL_DIR, LEDGER_PATH as LEDGER_PATH
+    from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_CH.rutas import PSNRL_DIR as PSNRL_DIR, LEDGER_PATH as LEDGER_PATH
 except ImportError:
     try:
-        from STM_CH.rutas import PSNRL_DIR, LEDGER_PATH
+        from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_CH.rutas import PSNRL_DIR, LEDGER_PATH
     except ImportError:
         PSNRL_DIR: Path = CELEBRO_DIR / "PSNRL"
         LEDGER_PATH: Path = CELEBRO_DIR / "blockchain_ledger.json"
@@ -41,7 +41,7 @@ try:
     from LC.celebro.CMFG.PSNRCV import get_conversor_pesos, ConversorRespuestaPesos  # pyrefly: ignore[missing-import]
 except ImportError:
     try:
-        from STM_BKCH.compat_local import get_conversor_pesos, ConversorRespuestaPesos
+        from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_BKCH.compat_local import get_conversor_pesos, ConversorRespuestaPesos
     except ImportError:
         try:
             from .compat_local import get_conversor_pesos, ConversorRespuestaPesos
@@ -52,7 +52,7 @@ try:
     from LC.celebro.CMFG.ipfs_manager import get_ipfs_manager, IPFSManager  # pyrefly: ignore[missing-import]
 except ImportError:
     try:
-        from STM_BKCH.compat_local import get_ipfs_manager, IPFSManager
+        from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_BKCH.compat_local import get_ipfs_manager, IPFSManager
     except ImportError:
         try:
             from .compat_local import get_ipfs_manager, IPFSManager
@@ -369,7 +369,7 @@ class CelebroBlockchain:
 
 
 try:
-    from STM_BKCH.bksvcb_net import (
+    from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_BKCH.bksvcb_net import (
         BlockchainHTTPHandler,
         BlockchainServerDaemon,
         get_blockchain_server,

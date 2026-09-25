@@ -89,7 +89,7 @@ class GestorJSONLucIA:
     """Puerta del orquestador al registro central STM_JSON."""
     def __init__(self) -> None:
         try:
-            from STM_JSON.registro_json import get_registro
+            from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_JSON.registro_json import get_registro
             self.registro = get_registro()
         except Exception:
             self.registro = None
@@ -113,7 +113,7 @@ class GestorHRTLucIA:
     """Puerta del orquestador al manifiesto STM_HRTS/pyproject.toml."""
     def __init__(self) -> None:
         try:
-            from STM_HRTS.registro_hrts import get_registro_hrts
+            from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_HRTS.registro_hrts import get_registro_hrts
             self.registro = get_registro_hrts()
         except Exception:
             self.registro = None

@@ -34,7 +34,7 @@ class ConversorRespuestaPesos:
         import json
         from pathlib import Path
         try:
-            from STM_CH.rutas import PSNRL_DIR
+            from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_CH.rutas import PSNRL_DIR
         except ImportError:
             PSNRL_DIR = Path("STM_CH") / "PSNRL"
         PSNRL_DIR.mkdir(parents=True, exist_ok=True)
@@ -88,7 +88,7 @@ class IPFSManager:
     def subir_y_limpiar_psnrl(self, forzar_borrado_sin_daemon: bool = False) -> Dict[str, Any]:
         borrados: list = []
         try:
-            from STM_CH.rutas import PSNRL_DIR
+            from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_CH.rutas import PSNRL_DIR
             if PSNRL_DIR.exists():
                 for hijo in list(PSNRL_DIR.iterdir()):
                     try:

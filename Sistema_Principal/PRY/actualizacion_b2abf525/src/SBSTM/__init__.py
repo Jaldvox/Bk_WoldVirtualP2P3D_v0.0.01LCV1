@@ -35,7 +35,7 @@ PACKAGE_ROOT: Final[Path] = Path(__file__).parent.resolve()
 CMFG_DIR: Final[Path] = PACKAGE_ROOT.parent.resolve()
 CELEBRO_DIR: Final[Path] = CMFG_DIR.parent.resolve()
 try:
-    from STM_CH.rutas import PSNRL_DIR as PSNRL_DIR, LEDGER_PATH as LEDGER_PATH
+    from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_CH.rutas import PSNRL_DIR as PSNRL_DIR, LEDGER_PATH as LEDGER_PATH
 except ImportError:
     PSNRL_DIR: Final[Path] = CELEBRO_DIR / "PSNRL"
     LEDGER_PATH: Final[Path] = CELEBRO_DIR / "blockchain_ledger.json"
@@ -422,7 +422,7 @@ atexit.register(_finalizacion_modulo_sbstm)
 
 
 try:
-    from SBSTM.accesores import (
+    from Sistema_Principal.PRY.actualizacion_b2abf525.src.SBSTM.accesores import (
         obtener_procesador_rplc,
         reprocesar_respuesta_lucia,
         obtener_motor_voz,

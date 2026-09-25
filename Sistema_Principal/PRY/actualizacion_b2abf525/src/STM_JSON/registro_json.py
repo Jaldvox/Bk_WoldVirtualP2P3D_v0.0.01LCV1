@@ -15,7 +15,7 @@ STM_JSON_DIR: Path = Path(__file__).resolve().parent
 
 def _stm_ch(nombre: str) -> Path:
     try:
-        from STM_CH.rutas import STM_CH_DIR
+        from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_CH.rutas import STM_CH_DIR
         return STM_CH_DIR / nombre
     except ImportError:
         return STM_JSON_DIR.parent / "STM_CH" / nombre

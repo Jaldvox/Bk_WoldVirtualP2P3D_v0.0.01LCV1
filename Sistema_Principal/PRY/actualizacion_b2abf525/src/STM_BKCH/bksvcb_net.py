@@ -10,7 +10,7 @@ __server_name__ = "CelebroBlockchainServer-BKSVCB"
 
 
 def _clase_blockchain():
-    from STM_BKCH.BKSVCB import CelebroBlockchain
+    from Sistema_Principal.PRY.actualizacion_b2abf525.src.STM_BKCH.BKSVCB import CelebroBlockchain
     return CelebroBlockchain
 class BlockchainHTTPHandler(BaseHTTPRequestHandler):
     """Manejador HTTP REST y JSON-RPC para el servidor blockchain."""
