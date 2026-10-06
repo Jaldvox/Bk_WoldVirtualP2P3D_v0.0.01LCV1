@@ -1,0 +1,224 @@
+{
+  "version": "2026.3.1",
+  "servidor": "CelebroBlockchainServer-BKSVCB",
+  "total_bloques": 4,
+  "dificultad": 2,
+  "cadena": [
+    {
+      "indice": 0,
+      "hash_bloque": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "hash_previo": "0000000000000000000000000000000000000000000000000000000000000000",
+      "merkle_root": "0dccdfce214923de382ee80b635c36c2b4ab8400918e25f7a498bfa89108eed0",
+      "dificultad": 1,
+      "nonce": 5,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "tipo": "GENESIS_COGNITIVO",
+          "emisor": "SYSTEM_CELEBRO",
+          "receptor": "CLUSTER_P2P",
+          "descripcion": "Arranque formal de la blockchain neuronal WoldVirtualP2P3D",
+          "hash_semilla": "3b218672129981a04a1db4804536c640f281449eb882a8949b0ea226595de840"
+        }
+      ],
+      "estado_neuronal": {
+        "total_neuronas": 50,
+        "capas": [
+          "ENRN",
+          "RF_SL",
+          "RF_EN",
+          "RNP",
+          "SLRN"
+        ],
+        "version_cluster": "2026.3.1",
+        "consenso": "Proof-of-Neural-Learning (PoNL)"
+      }
+    },
+    {
+      "indice": 1,
+      "hash_bloque": "00841e8ff2aa0c30a10300fb7c90836207b0160ae27e2ade87150811328d8300",
+      "hash_previo": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "merkle_root": "7a73ab5f48c5e7e720ae4a361162ec008641f782a0a38956a24aec3a13a7a62b",
+      "dificultad": 2,
+      "nonce": 212,
+      "total_transacciones": 3,
+      "transacciones": [
+        {
+          "id_tx": "4cd28228e4c2ac83",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreicljtkadfomtrgb2utzwyc3ojtgdq252thefqldvyqy6pgyuziywy",
+          "datos": {
+            "modelo": "LucIA-Reflejo-Interno",
+            "prompt_resumen": "¿puedes revisar., el sistema?",
+            "norma_delta": 36.10705,
+            "estado_emocional": 0.999,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 5956.63
+          }
+        },
+        {
+          "id_tx": "5fca7abddba49ab4",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreiehbskixojosppctr6s7jbudr5bhc2oafk4uv3wigbxhza4u3znre",
+          "datos": {
+            "modelo": "LucIA-Reflejo-Interno",
+            "prompt_resumen": "¿como puedo asignar  una ia  local para que se encarge?",
+            "norma_delta": 46.65855,
+            "estado_emocional": 0.751,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 4660.61
+          }
+        },
+        {
+          "id_tx": "e244b6681173dbf5",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreifztmcyd2nlowr74yjdxrlygipaipvtl4kjlynhgqca7glfag7sk4",
+          "datos": {
+            "modelo": "LucIA-Reflejo-Interno",
+            "prompt_resumen": "C:\\Users\\User\\Desktop\\WoldVirtualP2P3D_v0.0.01LCV1\\VersionDe_sesion\\CONTRRF\\RFC\\",
+            "norma_delta": 38.74797,
+            "estado_emocional": 0.992,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 4691.3
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 1029.95361,
+        "pasos_sesion": 27,
+        "minero": "CelebroLocalNode"
+      }
+    },
+    {
+      "indice": 2,
+      "hash_bloque": "00ca275f5e55d14a5d36cca45b2158d76bba995ec7bdd2eb8ab601ebeda23cb2",
+      "hash_previo": "00841e8ff2aa0c30a10300fb7c90836207b0160ae27e2ade87150811328d8300",
+      "merkle_root": "bb8c05cc218beb622988e51cea55987c0d85ac4a164f0e66bf7c7769c8a26f3f",
+      "dificultad": 2,
+      "nonce": 139,
+      "total_transacciones": 3,
+      "transacciones": [
+        {
+          "id_tx": "ed2788766483f4b6",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreictx2e4opyxh3adyxlsputhixowanip43bju7q6u4sdsl3m5w4x4e",
+          "datos": {
+            "modelo": "LucIA-Reflejo-Interno",
+            "prompt_resumen": "hola lucia",
+            "norma_delta": 19.50024,
+            "estado_emocional": 1.0,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 6332.73
+          }
+        },
+        {
+          "id_tx": "0916ff7326ef74fb",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreihrbni4qpoud54hb3ua22ilah6xshtma2dopm7oxqecsopbwquc4a",
+          "datos": {
+            "modelo": "LucIA-Reflejo-Interno",
+            "prompt_resumen": "que me puedes decir sopbre ti",
+            "norma_delta": 40.31097,
+            "estado_emocional": 1.0,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 4685.79
+          }
+        },
+        {
+          "id_tx": "2c8a543c0860a481",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreidpcv4e4gogzaszwyxlkylhinnqgswgmwh6bwdlibfpz6oopl723q",
+          "datos": {
+            "modelo": "LucIA-Reflejo-Interno",
+            "prompt_resumen": "hola lucia",
+            "norma_delta": 45.20445,
+            "estado_emocional": 1.0,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 4684.95
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 458.399747,
+        "pasos_sesion": 15,
+        "minero": "CelebroLocalNode"
+      }
+    },
+    {
+      "indice": 3,
+      "hash_bloque": "00b7950bb626990606c61b1cb96ca71eff53224d30796d90ee9f3c5cb5a31270",
+      "hash_previo": "00ca275f5e55d14a5d36cca45b2158d76bba995ec7bdd2eb8ab601ebeda23cb2",
+      "merkle_root": "53180ba1bb6a46b3db4857fc59e7e3d1fd28ef5449f6aa9902e9317f9d15c408",
+      "dificultad": 2,
+      "nonce": 77,
+      "total_transacciones": 3,
+      "transacciones": [
+        {
+          "id_tx": "ccb7523428e5be96",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreicvgqlzgkldr4em2xnynukmrsmoovefersj7ozntdny5rpyzcqbxq",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "hola lucia como te encuentras hoy",
+            "norma_delta": 38.07765,
+            "estado_emocional": 1.0,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 6083.66
+          }
+        },
+        {
+          "id_tx": "0b1ce5e6e830289c",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreifw4ufsn3blnmon37rzf64ib4reqcsubk5n5ibgdqumjqgkjmqu7a",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "¿hoy  que se hizo  en tu sistema ?",
+            "norma_delta": 45.27642,
+            "estado_emocional": 0.999,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 4674.04
+          }
+        },
+        {
+          "id_tx": "b6834f62087714d4",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreidgzgbavbxc6piifbzzzcfuibeymgo5k7w5hrg42dvhlg47fyo4ca",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "¿hoy  que se hizo  en tu sistema ?",
+            "norma_delta": 41.95467,
+            "estado_emocional": 0.585,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 4675.97
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 638.3928,
+        "pasos_sesion": 19,
+        "minero": "CelebroLocalNode"
+      }
+    }
+  ]
+}

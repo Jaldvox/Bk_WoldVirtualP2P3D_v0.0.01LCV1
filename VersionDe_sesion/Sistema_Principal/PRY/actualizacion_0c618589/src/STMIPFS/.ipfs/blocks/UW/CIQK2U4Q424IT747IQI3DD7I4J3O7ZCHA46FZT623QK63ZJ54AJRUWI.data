@@ -1,0 +1,100 @@
+{
+  "version": "2026.3.1",
+  "servidor": "CelebroBlockchainServer-BKSVCB",
+  "total_bloques": 2,
+  "dificultad": 2,
+  "cadena": [
+    {
+      "indice": 0,
+      "hash_bloque": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "hash_previo": "0000000000000000000000000000000000000000000000000000000000000000",
+      "merkle_root": "0dccdfce214923de382ee80b635c36c2b4ab8400918e25f7a498bfa89108eed0",
+      "dificultad": 1,
+      "nonce": 5,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "tipo": "GENESIS_COGNITIVO",
+          "emisor": "SYSTEM_CELEBRO",
+          "receptor": "CLUSTER_P2P",
+          "descripcion": "Arranque formal de la blockchain neuronal WoldVirtualP2P3D",
+          "hash_semilla": "3b218672129981a04a1db4804536c640f281449eb882a8949b0ea226595de840"
+        }
+      ],
+      "estado_neuronal": {
+        "total_neuronas": 50,
+        "capas": [
+          "ENRN",
+          "RF_SL",
+          "RF_EN",
+          "RNP",
+          "SLRN"
+        ],
+        "version_cluster": "2026.3.1",
+        "consenso": "Proof-of-Neural-Learning (PoNL)"
+      }
+    },
+    {
+      "indice": 1,
+      "hash_bloque": "00407be96944aeec083ffaa35a0cbd028d3253a3a500f44c6b818c879ed79c76",
+      "hash_previo": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "merkle_root": "b29616ea0d40b88b9ec5610a93f509f4a10e0164f5a7b5c220c3ff7a8315af8f",
+      "dificultad": 2,
+      "nonce": 66,
+      "total_transacciones": 3,
+      "transacciones": [
+        {
+          "id_tx": "e80cb52d8fe8b85c",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreia2dwje6i3h5cuhlaw5yah2flsdypuzd3qosgs4rbkaknivnjqvmy",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "hola  lucia",
+            "norma_delta": 20.32424,
+            "estado_emocional": 0.999,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 64.22
+          }
+        },
+        {
+          "id_tx": "aaab25da161c8a5d",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreiavkvcbp5meo2pchlcrsuvlhzfwxunjljuvc43witizejdxpmohdq",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "¿podrias indicarme  el estado de tu sistema  interno?",
+            "norma_delta": 37.01038,
+            "estado_emocional": 0.956,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 53.39
+          }
+        },
+        {
+          "id_tx": "13c9f311a709626c",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreidn7qexjo6qmxs23vzw2ohx4rrvlmhi6gcczda5syvd3yvn4ujwou",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "te boy  a proponer  un reto., haber  si lo resuelves., \" el perro de san roque n",
+            "norma_delta": 41.90613,
+            "estado_emocional": -0.367,
+            "tono": "sereno y analítico",
+            "duracion_ms": 64.74
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 1157.160817,
+        "pasos_sesion": 33,
+        "minero": "CelebroLocalNode"
+      }
+    }
+  ]
+}

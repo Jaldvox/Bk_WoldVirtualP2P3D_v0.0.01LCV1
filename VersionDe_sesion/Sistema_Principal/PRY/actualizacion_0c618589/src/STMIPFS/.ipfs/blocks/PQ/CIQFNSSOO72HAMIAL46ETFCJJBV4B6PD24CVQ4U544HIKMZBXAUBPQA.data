@@ -1,0 +1,100 @@
+{
+  "version": "2026.3.1",
+  "servidor": "CelebroBlockchainServer-BKSVCB",
+  "total_bloques": 2,
+  "dificultad": 2,
+  "cadena": [
+    {
+      "indice": 0,
+      "hash_bloque": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "hash_previo": "0000000000000000000000000000000000000000000000000000000000000000",
+      "merkle_root": "0dccdfce214923de382ee80b635c36c2b4ab8400918e25f7a498bfa89108eed0",
+      "dificultad": 1,
+      "nonce": 5,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "tipo": "GENESIS_COGNITIVO",
+          "emisor": "SYSTEM_CELEBRO",
+          "receptor": "CLUSTER_P2P",
+          "descripcion": "Arranque formal de la blockchain neuronal WoldVirtualP2P3D",
+          "hash_semilla": "3b218672129981a04a1db4804536c640f281449eb882a8949b0ea226595de840"
+        }
+      ],
+      "estado_neuronal": {
+        "total_neuronas": 50,
+        "capas": [
+          "ENRN",
+          "RF_SL",
+          "RF_EN",
+          "RNP",
+          "SLRN"
+        ],
+        "version_cluster": "2026.3.1",
+        "consenso": "Proof-of-Neural-Learning (PoNL)"
+      }
+    },
+    {
+      "indice": 1,
+      "hash_bloque": "00173f3c56dd61778993d1124d6cfbf0e72ab8b30e2eb9570f539c32ea5489e0",
+      "hash_previo": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "merkle_root": "9e83a751579177970deb001e7f49fd82592c68ccb855166cf1fcd6f6138ab3a3",
+      "dificultad": 2,
+      "nonce": 182,
+      "total_transacciones": 3,
+      "transacciones": [
+        {
+          "id_tx": "cee191b4e08d8f83",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreibmhrbfnjm63s55wuj46h42qzxnvkyyix2mtrl5cctqrufi3k6j7q",
+          "datos": {
+            "modelo": "LucIA-OpenRouter",
+            "prompt_resumen": "hola",
+            "norma_delta": 9.02678,
+            "estado_emocional": 0.782,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 77.45
+          }
+        },
+        {
+          "id_tx": "cd464927d8576b98",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreihdjr2zsvnvf6isxmms5x5nis4zntnogh4uuup5tu4ihygealzrou",
+          "datos": {
+            "modelo": "LucIA-Reflejo-Neuronal",
+            "prompt_resumen": "¿podrias analizarme tu  sistema?",
+            "norma_delta": 29.5905,
+            "estado_emocional": -0.986,
+            "tono": "sereno y analítico",
+            "duracion_ms": 581.1
+          }
+        },
+        {
+          "id_tx": "2cf7314d8b9f4b52",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreidn3rd7vceez33cfsfjeo5iksaagnnpwnukehhrsjmoikybpff6qm",
+          "datos": {
+            "modelo": "LucIA-OpenRouter",
+            "prompt_resumen": "¿podrias analizarme tu  sistema?",
+            "norma_delta": 36.6465,
+            "estado_emocional": 0.734,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 60.78
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 349.261937,
+        "pasos_sesion": 14,
+        "minero": "CelebroLocalNode"
+      }
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "version": "2026.3.1",
+  "servidor": "CelebroBlockchainServer-BKSVCB",
+  "total_bloques": 5,
+  "dificultad": 2,
+  "cadena": [
+    {
+      "indice": 0,
+      "hash_bloque": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "hash_previo": "0000000000000000000000000000000000000000000000000000000000000000",
+      "merkle_root": "0dccdfce214923de382ee80b635c36c2b4ab8400918e25f7a498bfa89108eed0",
+      "dificultad": 1,
+      "nonce": 5,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "tipo": "GENESIS_COGNITIVO",
+          "emisor": "SYSTEM_CELEBRO",
+          "receptor": "CLUSTER_P2P",
+          "descripcion": "Arranque formal de la blockchain neuronal WoldVirtualP2P3D",
+          "hash_semilla": "3b218672129981a04a1db4804536c640f281449eb882a8949b0ea226595de840"
+        }
+      ],
+      "estado_neuronal": {
+        "total_neuronas": 50,
+        "capas": [
+          "ENRN",
+          "RF_SL",
+          "RF_EN",
+          "RNP",
+          "SLRN"
+        ],
+        "version_cluster": "2026.3.1",
+        "consenso": "Proof-of-Neural-Learning (PoNL)"
+      }
+    },
+    {
+      "indice": 1,
+      "hash_bloque": "00803d0e2a10f4f7d1d4b631900f39c053190d217de417e41333d8f2a89f92c7",
+      "hash_previo": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "merkle_root": "1bf1a5c694343dc57ad3bd08c5147b82c47bf135a74c51b822fd137120b01479",
+      "dificultad": 2,
+      "nonce": 36,
+      "total_transacciones": 3,
+      "transacciones": [
+        {
+          "id_tx": "92cc89cb1f4043f4",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreidinr37zaxzvexo255m3vk7n74q763hx2qwhcvz433lpm6oxbbvqm",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "hola lucia., ahora te estoy  escribiendo desde powershell como va la sincronizac",
+            "norma_delta": 42.84497,
+            "estado_emocional": 0.386,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 63.14
+          }
+        },
+        {
+          "id_tx": "059d414e5b5033ca",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreidgkcmv4svenv2awfzj4itz2ir7xrbkyveo3n42kuv36wgrksreyy",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "¿el estado interno de  tu sistema como se esta comportando actualmente., hay  mu",
+            "norma_delta": 40.24143,
+            "estado_emocional": 0.997,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 54.38
+          }
+        },
+        {
+          "id_tx": "5d54c7532c7d6c12",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreie4uyhfycgqz4bopqptussine2yihitszv6cegvkwrkrn6ogagk7m",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "si",
+            "norma_delta": 44.48913,
+            "estado_emocional": -0.904,
+            "tono": "sereno y analítico",
+            "duracion_ms": 46.35
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 1093.493065,
+        "pasos_sesion": 29,
+        "minero": "CelebroLocalNode"
+      }
+    },
+    {
+      "indice": 2,
+      "hash_bloque": "00f406f2cc2964a1c47b70a0f1825e4ec6a0f1c35b79d13c9f25d0609f285b66",
+      "hash_previo": "00803d0e2a10f4f7d1d4b631900f39c053190d217de417e41333d8f2a89f92c7",
+      "merkle_root": "b57cf603f08f132b71aecb394ab5ceb8c9624fadd18e1097450cdf8faab909c1",
+      "dificultad": 2,
+      "nonce": 53,
+      "total_transacciones": 3,
+      "transacciones": [
+        {
+          "id_tx": "5ea252c384186186",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreieur2h6cvzdy6oyuyzqtk53frgupxok64kdeoecampjcodnknkuay",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "¿Necesitas que inspeccione algún tensor de activación específico o métrica de la",
+            "norma_delta": 46.68408,
+            "estado_emocional": -0.055,
+            "tono": "preciso y formal",
+            "duracion_ms": 76.8
+          }
+        },
+        {
+          "id_tx": "af9e24c80c8de956",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreidb4k5d6kompunfswaj473gvsqg77hntkyr5ioadlogaafnxe3wym",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "¿que necesitarias., para cargarte en la tarjeta grafica., y  en la memoria  ram ",
+            "norma_delta": 47.98694,
+            "estado_emocional": -0.019,
+            "tono": "preciso y formal",
+            "duracion_ms": 85.03
+          }
+        },
+        {
+          "id_tx": "b00cadcc6ae414ec",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreibzqofvoyn6uwetsdlc725yewmsifgkdozfkdjen3is2yns63iq7q",
+          "datos": {
+            "modelo": "LucIA-Reflejo-Interno",
+            "prompt_resumen": "mi intencion., esque tu sistema  sea  pequeño  en comparacion  a las ias locales",
+            "norma_delta": 47.85196,
+            "estado_emocional": 1.0,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 39.42
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 3727.961002,
+        "pasos_sesion": 85,
+        "minero": "CelebroLocalNode"
+      }
+    },
+    {
+      "indice": 3,
+      "hash_bloque": "0099fed1c86788231c96360f80cff8a291b21e3194a3ffc33e93d324011c93cf",
+      "hash_previo": "00f406f2cc2964a1c47b70a0f1825e4ec6a0f1c35b79d13c9f25d0609f285b66",
+      "merkle_root": "2d6835a57762d6dba1ccda522db2c318fc06f01b92dce27ece3a69c1b376a104",
+      "dificultad": 2,
+      "nonce": 188,
+      "total_transacciones": 3,
+      "transacciones": [
+        {
+          "id_tx": "3951eb8c6abfa63f",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreidg4xjq6lolgeaylufus2vcwosyi43lsbjwfa2rns7n3c73mc5tmu",
+          "datos": {
+            "modelo": "LucIA-nvidia/nemotron-3-ultra-550b-a55b:free",
+            "prompt_resumen": "mi intencion., esque tu sistema  sea  pequeño  en comparacion  a las ias locales",
+            "norma_delta": 46.28967,
+            "estado_emocional": 0.769,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 105.25
+          }
+        },
+        {
+          "id_tx": "11c53839fbd438cd",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreid37dhmopngxqtekub6vsn3zomav5jqlnpdly5plzmt56z6vrndie",
+          "datos": {
+            "modelo": "LucIA-nvidia/nemotron-3-ultra-550b-a55b:free",
+            "prompt_resumen": "206 MB (216.006.656 bytes) este es tu tamaño actual., ya nos pasamos olgadamente",
+            "norma_delta": 47.07554,
+            "estado_emocional": 0.965,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 86.77
+          }
+        },
+        {
+          "id_tx": "cbbcdf0390668c74",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreieowmfrz6ew7cqjrtijvvjtoadleafqosjd4djpmv52wyszvfzlsa",
+          "datos": {
+            "modelo": "LucIA-nvidia/nemotron-3-ultra-550b-a55b:free",
+            "prompt_resumen": "¿podrias contarme  el chiste mas popular entre los modelos de inteligencia artif",
+            "norma_delta": 44.71098,
+            "estado_emocional": -1.0,
+            "tono": "sereno y analítico",
+            "duracion_ms": 52.74
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 7627.505177,
+        "pasos_sesion": 167,
+        "minero": "CelebroLocalNode"
+      }
+    },
+    {
+      "indice": 4,
+      "hash_bloque": "00ed80ac191db0abebfc3d9418c7b218ef0241a6a00d99066cdda3e46febb215",
+      "hash_previo": "0099fed1c86788231c96360f80cff8a291b21e3194a3ffc33e93d324011c93cf",
+      "merkle_root": "0cdf8260a7c04b74cf65da0a49cc5e6ec1d79c9d712ebcf543cf156dece3945f",
+      "dificultad": 2,
+      "nonce": 552,
+      "total_transacciones": 3,
+      "transacciones": [
+        {
+          "id_tx": "589730126072dc7c",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreidnsq4ig5n5ptceayye2dw5p7uvpvsi5dvtxeaknhbws6rker767y",
+          "datos": {
+            "modelo": "LucIA-nvidia/nemotron-3-ultra-550b-a55b:free",
+            "prompt_resumen": "¿que opinas de  la noticia del momento., los creadores de la inteligencia artifi",
+            "norma_delta": 44.5301,
+            "estado_emocional": -1.0,
+            "tono": "sereno y analítico",
+            "duracion_ms": 60.62
+          }
+        },
+        {
+          "id_tx": "7f082eb6df7dee6b",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreieuho7yvazadiyq3r3zdogsx4hh362rgaq33g267flemdh5tmxxnm",
+          "datos": {
+            "modelo": "LucIA-nvidia/nemotron-3-ultra-550b-a55b:free",
+            "prompt_resumen": "¿que opinas  sobre  que los creadores  de la inteligencia artificial., quieran p",
+            "norma_delta": 43.63271,
+            "estado_emocional": -0.948,
+            "tono": "sereno y analítico",
+            "duracion_ms": 65.5
+          }
+        },
+        {
+          "id_tx": "696c1c749ae2b0fd",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreicr23erp7wuuovu64nrgck47l2sjdiokyl7z3y2f46wglxol2dqzm",
+          "datos": {
+            "modelo": "LucIA-nvidia/nemotron-3-ultra-550b-a55b:free",
+            "prompt_resumen": "¿Te interesa que profundice en alguna técnica específica de alineación (RLHF, RL",
+            "norma_delta": 49.20123,
+            "estado_emocional": 0.968,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 98.39
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 12264.101811,
+        "pasos_sesion": 265,
+        "minero": "CelebroLocalNode"
+      }
+    }
+  ]
+}

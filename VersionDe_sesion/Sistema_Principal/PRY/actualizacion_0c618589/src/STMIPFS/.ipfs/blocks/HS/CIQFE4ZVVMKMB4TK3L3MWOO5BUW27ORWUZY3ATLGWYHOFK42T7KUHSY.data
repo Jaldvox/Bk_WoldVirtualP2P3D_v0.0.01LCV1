@@ -1,0 +1,70 @@
+{
+  "version": "2026.3.1",
+  "servidor": "CelebroBlockchainServer-BKSVCB",
+  "total_bloques": 2,
+  "dificultad": 2,
+  "cadena": [
+    {
+      "indice": 0,
+      "hash_bloque": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "hash_previo": "0000000000000000000000000000000000000000000000000000000000000000",
+      "merkle_root": "0dccdfce214923de382ee80b635c36c2b4ab8400918e25f7a498bfa89108eed0",
+      "dificultad": 1,
+      "nonce": 5,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "tipo": "GENESIS_COGNITIVO",
+          "emisor": "SYSTEM_CELEBRO",
+          "receptor": "CLUSTER_P2P",
+          "descripcion": "Arranque formal de la blockchain neuronal WoldVirtualP2P3D",
+          "hash_semilla": "3b218672129981a04a1db4804536c640f281449eb882a8949b0ea226595de840"
+        }
+      ],
+      "estado_neuronal": {
+        "total_neuronas": 50,
+        "capas": [
+          "ENRN",
+          "RF_SL",
+          "RF_EN",
+          "RNP",
+          "SLRN"
+        ],
+        "version_cluster": "2026.3.1",
+        "consenso": "Proof-of-Neural-Learning (PoNL)"
+      }
+    },
+    {
+      "indice": 1,
+      "hash_bloque": "009fb0f760ba274b44aebd79d25245bc070ee4d4e2ec828df2381e5d99fd98e3",
+      "hash_previo": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "merkle_root": "4f653991d05a2a4a2e2b5edbee85afa886f1bb58c6490ea94dd39280c07f80cd",
+      "dificultad": 2,
+      "nonce": 45,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "id_tx": "b5af1a38605a8f48",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreibcieynm5rzqzrz7g4omstke73j7pubvjrr4agbrr6qwfaaah2ela",
+          "datos": {
+            "modelo": "qwen2.5:7b",
+            "prompt_resumen": "¿Cual es el rol de las 50 neuronas en la blockchain de Celebro?",
+            "norma_delta": 5.59486,
+            "estado_emocional": 0.692,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 4656.99
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 8.930812,
+        "pasos_sesion": 2,
+        "minero": "CelebroLocalNode"
+      }
+    }
+  ]
+}

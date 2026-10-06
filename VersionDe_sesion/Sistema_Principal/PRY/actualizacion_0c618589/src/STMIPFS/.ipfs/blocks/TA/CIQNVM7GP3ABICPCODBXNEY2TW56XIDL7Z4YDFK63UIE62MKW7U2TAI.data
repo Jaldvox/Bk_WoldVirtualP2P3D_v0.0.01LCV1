@@ -1,0 +1,117 @@
+{
+  "version": "2026.3.1",
+  "servidor": "CelebroBlockchainServer-BKSVCB",
+  "total_bloques": 3,
+  "dificultad": 2,
+  "cadena": [
+    {
+      "indice": 0,
+      "hash_bloque": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "hash_previo": "0000000000000000000000000000000000000000000000000000000000000000",
+      "merkle_root": "0dccdfce214923de382ee80b635c36c2b4ab8400918e25f7a498bfa89108eed0",
+      "dificultad": 1,
+      "nonce": 5,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "tipo": "GENESIS_COGNITIVO",
+          "emisor": "SYSTEM_CELEBRO",
+          "receptor": "CLUSTER_P2P",
+          "descripcion": "Arranque formal de la blockchain neuronal WoldVirtualP2P3D",
+          "hash_semilla": "3b218672129981a04a1db4804536c640f281449eb882a8949b0ea226595de840"
+        }
+      ],
+      "estado_neuronal": {
+        "total_neuronas": 50,
+        "capas": [
+          "ENRN",
+          "RF_SL",
+          "RF_EN",
+          "RNP",
+          "SLRN"
+        ],
+        "version_cluster": "2026.3.1",
+        "consenso": "Proof-of-Neural-Learning (PoNL)"
+      }
+    },
+    {
+      "indice": 1,
+      "hash_bloque": "00ffe22cda584dbaeddc0ef224d81cfba76a6d4cc3d816032af60bf1bba94e0f",
+      "hash_previo": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "merkle_root": "14bef482e9ee3c3588fd706eefefe03914f58d34e53915be4d5ed4736d9c6b7c",
+      "dificultad": 2,
+      "nonce": 591,
+      "total_transacciones": 2,
+      "transacciones": [
+        {
+          "id_tx": "a4901bcfde1c7f45",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreifetdx4x3rei43jwqvkqhw33b3kfm43vokz4mgvk73w5aqs2j7yyq",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "hola",
+            "norma_delta": 20.81467,
+            "estado_emocional": 0.998,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 50.67
+          }
+        },
+        {
+          "id_tx": "8a89f222ccc5f605",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreieotvvbe4msznoncqqdmc3nqpgelk43mufetiayou6lrtnvdz3u6i",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "¿puedes describirte  a ti misma?",
+            "norma_delta": 41.38034,
+            "estado_emocional": 1.0,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 67.74
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 903.65924,
+        "pasos_sesion": 27,
+        "minero": "CelebroLocalNode"
+      }
+    },
+    {
+      "indice": 2,
+      "hash_bloque": "00e8a9502fc8cfc1fb730d277d238fa2e477139971ed381a3cb48dba0c88bddf",
+      "hash_previo": "00ffe22cda584dbaeddc0ef224d81cfba76a6d4cc3d816032af60bf1bba94e0f",
+      "merkle_root": "dfe95c8af9b11d093a7fd598e8713658261b151297aab30feaed51df78f7e4cc",
+      "dificultad": 2,
+      "nonce": 325,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "id_tx": "300561fc5c7e176c",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreidipvauucsqrwl352kda26rgxpiek4kjqxxcw6annp3nvfez6b3xa",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "Hola LucIA, muestrame un breve resumen de tu estructura y una tabla de ejemplo.",
+            "norma_delta": 28.18333,
+            "estado_emocional": 0.59,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 45.19
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 80.156001,
+        "pasos_sesion": 6,
+        "minero": "CelebroLocalNode"
+      }
+    }
+  ]
+}

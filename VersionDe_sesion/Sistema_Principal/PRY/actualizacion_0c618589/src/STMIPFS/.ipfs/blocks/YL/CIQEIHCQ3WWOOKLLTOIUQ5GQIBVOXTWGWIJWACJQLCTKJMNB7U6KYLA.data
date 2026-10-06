@@ -1,0 +1,373 @@
+{
+  "version": "2026.3.1",
+  "servidor": "CelebroBlockchainServer-BKSVCB",
+  "total_bloques": 11,
+  "dificultad": 2,
+  "cadena": [
+    {
+      "indice": 0,
+      "hash_bloque": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "hash_previo": "0000000000000000000000000000000000000000000000000000000000000000",
+      "merkle_root": "0dccdfce214923de382ee80b635c36c2b4ab8400918e25f7a498bfa89108eed0",
+      "dificultad": 1,
+      "nonce": 5,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "tipo": "GENESIS_COGNITIVO",
+          "emisor": "SYSTEM_CELEBRO",
+          "receptor": "CLUSTER_P2P",
+          "descripcion": "Arranque formal de la blockchain neuronal WoldVirtualP2P3D",
+          "hash_semilla": "3b218672129981a04a1db4804536c640f281449eb882a8949b0ea226595de840"
+        }
+      ],
+      "estado_neuronal": {
+        "total_neuronas": 50,
+        "capas": [
+          "ENRN",
+          "RF_SL",
+          "RF_EN",
+          "RNP",
+          "SLRN"
+        ],
+        "version_cluster": "2026.3.1",
+        "consenso": "Proof-of-Neural-Learning (PoNL)"
+      }
+    },
+    {
+      "indice": 1,
+      "hash_bloque": "0021abcf147ece3e3286dd8bed2417d17b5697e31821b7b3228423649162fda0",
+      "hash_previo": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "merkle_root": "f005e88e8562ce8e62a9860326fdea8de4034adbe5023e81b79fdde1686e2053",
+      "dificultad": 2,
+      "nonce": 143,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "id_tx": "cbfcfe5a16e4b3c9",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreihvz7ghepmkwjtf5uu2qksu54ajn3pioze6ok2pxchdo24f5gvqwm",
+          "datos": {
+            "modelo": "qwen2.5:7b",
+            "prompt_resumen": "¿Cual es el rol de las 50 neuronas en la blockchain de Celebro?",
+            "norma_delta": 3.33595,
+            "estado_emocional": 0.87,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 68.25
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 3.335951,
+        "pasos_sesion": 1,
+        "minero": "CelebroLocalNode"
+      }
+    },
+    {
+      "indice": 2,
+      "hash_bloque": "0008293eae08a85f00e866d1d2386e2c98adbee5569a8de765d76e16ac0b1e18",
+      "hash_previo": "0021abcf147ece3e3286dd8bed2417d17b5697e31821b7b3228423649162fda0",
+      "merkle_root": "2aac5855673410f4e06fab5b5501e654c6c174c8917a64a722f01ab082dc6215",
+      "dificultad": 2,
+      "nonce": 602,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "id_tx": "07f4b16fda1130f8",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreihvz7ghepmkwjtf5uu2qksu54ajn3pioze6ok2pxchdo24f5gvqwm",
+          "datos": {
+            "modelo": "qwen2.5:7b",
+            "prompt_resumen": "¿Cual es el rol de las 50 neuronas en la blockchain de Celebro?",
+            "norma_delta": 3.33595,
+            "estado_emocional": 0.87,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 91.26
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 3.335951,
+        "pasos_sesion": 1,
+        "minero": "CelebroLocalNode"
+      }
+    },
+    {
+      "indice": 3,
+      "hash_bloque": "00120672f7102e44fc2bf6b7f5a683d9f3696de63b3e969a2b73b4a16123c59e",
+      "hash_previo": "0008293eae08a85f00e866d1d2386e2c98adbee5569a8de765d76e16ac0b1e18",
+      "merkle_root": "81960fddfa5fa189946ffbd6abe75d162f2e06af79eb6e6089653b6e16e8b110",
+      "dificultad": 2,
+      "nonce": 510,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "id_tx": "13fdb05c00320e44",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreihvz7ghepmkwjtf5uu2qksu54ajn3pioze6ok2pxchdo24f5gvqwm",
+          "datos": {
+            "modelo": "qwen2.5:7b",
+            "prompt_resumen": "¿Cual es el rol de las 50 neuronas en la blockchain de Celebro?",
+            "norma_delta": 3.33595,
+            "estado_emocional": 0.87,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 68.6
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 3.335951,
+        "pasos_sesion": 1,
+        "minero": "CelebroLocalNode"
+      }
+    },
+    {
+      "indice": 4,
+      "hash_bloque": "0059e3106987074c48aec50881b020f95878f40f0e80ad2f6e4819e5f9018ff9",
+      "hash_previo": "00120672f7102e44fc2bf6b7f5a683d9f3696de63b3e969a2b73b4a16123c59e",
+      "merkle_root": "87ace7dc44ea8f47cf459e09007f297ebef1fddbed8de6dac8053fd2faf7bd62",
+      "dificultad": 2,
+      "nonce": 297,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "id_tx": "3c73ce629ef58f57",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreihvz7ghepmkwjtf5uu2qksu54ajn3pioze6ok2pxchdo24f5gvqwm",
+          "datos": {
+            "modelo": "qwen2.5:7b",
+            "prompt_resumen": "¿Cual es el rol de las 50 neuronas en la blockchain de Celebro?",
+            "norma_delta": 3.33595,
+            "estado_emocional": 0.87,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 91.38
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 3.335951,
+        "pasos_sesion": 1,
+        "minero": "CelebroLocalNode"
+      }
+    },
+    {
+      "indice": 5,
+      "hash_bloque": "00f2f62cd0261963dcda66796768ebb432a4a85056ea7ccfbcc54bb00e8f406b",
+      "hash_previo": "0059e3106987074c48aec50881b020f95878f40f0e80ad2f6e4819e5f9018ff9",
+      "merkle_root": "6763af5a499009eb4ecf3292665521019f916a209671b0fe59ccb9b921823fa1",
+      "dificultad": 2,
+      "nonce": 108,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "id_tx": "2f7c4f23f8b88343",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreihvz7ghepmkwjtf5uu2qksu54ajn3pioze6ok2pxchdo24f5gvqwm",
+          "datos": {
+            "modelo": "qwen2.5:7b",
+            "prompt_resumen": "¿Cual es el rol de las 50 neuronas en la blockchain de Celebro?",
+            "norma_delta": 3.33595,
+            "estado_emocional": 0.87,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 78.9
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 3.335951,
+        "pasos_sesion": 1,
+        "minero": "CelebroLocalNode"
+      }
+    },
+    {
+      "indice": 6,
+      "hash_bloque": "002351d3fc54b8da542567def50611d5e32fbc2e2016a982b50fd2ded889cd74",
+      "hash_previo": "00f2f62cd0261963dcda66796768ebb432a4a85056ea7ccfbcc54bb00e8f406b",
+      "merkle_root": "f04caf33a98727a7caf9f54cc28e47aae5ba1bf233f32c500d17529384f2f39b",
+      "dificultad": 2,
+      "nonce": 87,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "id_tx": "a70d970d1ca333c2",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreihvz7ghepmkwjtf5uu2qksu54ajn3pioze6ok2pxchdo24f5gvqwm",
+          "datos": {
+            "modelo": "qwen2.5:7b",
+            "prompt_resumen": "¿Cual es el rol de las 50 neuronas en la blockchain de Celebro?",
+            "norma_delta": 3.33595,
+            "estado_emocional": 0.87,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 178.68
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 3.335951,
+        "pasos_sesion": 1,
+        "minero": "CelebroLocalNode"
+      }
+    },
+    {
+      "indice": 7,
+      "hash_bloque": "00fabdedefb8b18523d530b4be2d583accf65852ecdad71f73fd2f59e0e78beb",
+      "hash_previo": "002351d3fc54b8da542567def50611d5e32fbc2e2016a982b50fd2ded889cd74",
+      "merkle_root": "742bebda826965be5852b96bcec5c76808b1fe1d215db1a8a502b47f5c20541a",
+      "dificultad": 2,
+      "nonce": 573,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "id_tx": "54fd77376130b6a4",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreihvz7ghepmkwjtf5uu2qksu54ajn3pioze6ok2pxchdo24f5gvqwm",
+          "datos": {
+            "modelo": "qwen2.5:7b",
+            "prompt_resumen": "¿Cual es el rol de las 50 neuronas en la blockchain de Celebro?",
+            "norma_delta": 3.33595,
+            "estado_emocional": 0.87,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 108.26
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 3.335951,
+        "pasos_sesion": 1,
+        "minero": "CelebroLocalNode"
+      }
+    },
+    {
+      "indice": 8,
+      "hash_bloque": "00977b3c35f03b12bc3c50c1cef36bd03339c0b14395a7c507cd19346af81465",
+      "hash_previo": "00fabdedefb8b18523d530b4be2d583accf65852ecdad71f73fd2f59e0e78beb",
+      "merkle_root": "428e39260c570c54b2f11088493f3f91bf789aecf2a21ab54bb9c831080a16b5",
+      "dificultad": 2,
+      "nonce": 11,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "id_tx": "4cd06b8f62c663e5",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreihvz7ghepmkwjtf5uu2qksu54ajn3pioze6ok2pxchdo24f5gvqwm",
+          "datos": {
+            "modelo": "qwen2.5:7b",
+            "prompt_resumen": "¿Cual es el rol de las 50 neuronas en la blockchain de Celebro?",
+            "norma_delta": 3.33595,
+            "estado_emocional": 0.87,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 96.11
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 3.335951,
+        "pasos_sesion": 1,
+        "minero": "CelebroLocalNode"
+      }
+    },
+    {
+      "indice": 9,
+      "hash_bloque": "00ddbcf912bb067cb811fac743080bab95e358fd12030e4205a5a60331618b9c",
+      "hash_previo": "00977b3c35f03b12bc3c50c1cef36bd03339c0b14395a7c507cd19346af81465",
+      "merkle_root": "0b45c99dcf412d6d813491850cbd037ccb543fe48bec17c72d40c6e0f2f3fd85",
+      "dificultad": 2,
+      "nonce": 204,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "id_tx": "28403d80f90fb55d",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreiequfe3naqfya42kwmmmtmy5cxqewgikowcrsipvhmqnqusjdhwme",
+          "datos": {
+            "modelo": "qwen2.5:7b",
+            "prompt_resumen": "¿Cual es el rol de las 50 neuronas en la blockchain de Celebro?",
+            "norma_delta": 35.80781,
+            "estado_emocional": -0.937,
+            "tono": "sereno y analítico",
+            "duracion_ms": 64.46
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 202.110065,
+        "pasos_sesion": 10,
+        "minero": "CelebroLocalNode"
+      }
+    },
+    {
+      "indice": 10,
+      "hash_bloque": "00d046ed9ddfce2d044ffab74f900394a02e272da5931ac304a9a6c8ea340147",
+      "hash_previo": "00ddbcf912bb067cb811fac743080bab95e358fd12030e4205a5a60331618b9c",
+      "merkle_root": "54203536b0509f56c9f5982177320fc325c874f1977025a999a8a17e6fe1cbfb",
+      "dificultad": 2,
+      "nonce": 30,
+      "total_transacciones": 2,
+      "transacciones": [
+        {
+          "id_tx": "c122fbdffba0d1ac",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreidshhuvfngyy3bi4tstdhheacb2vftrxjlfmnh5bmcciky3vlhj3m",
+          "datos": {
+            "modelo": "cogito:3b",
+            "prompt_resumen": "hola",
+            "norma_delta": 42.2817,
+            "estado_emocional": 0.987,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 63.89
+          }
+        },
+        {
+          "id_tx": "0f7b92ac29ee0a2e",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreifwnasgfqcy647eo6vbcwflwgpgo6ywez6shhhuuxfx3ew5mb2n24",
+          "datos": {
+            "modelo": "cogito:3b",
+            "prompt_resumen": "estas",
+            "norma_delta": 48.81721,
+            "estado_emocional": 0.985,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 63.95
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 559.267746,
+        "pasos_sesion": 18,
+        "minero": "CelebroLocalNode"
+      }
+    }
+  ]
+}

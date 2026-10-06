@@ -1,0 +1,100 @@
+{
+  "version": "2026.3.1",
+  "servidor": "CelebroBlockchainServer-BKSVCB",
+  "total_bloques": 2,
+  "dificultad": 2,
+  "cadena": [
+    {
+      "indice": 0,
+      "hash_bloque": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "hash_previo": "0000000000000000000000000000000000000000000000000000000000000000",
+      "merkle_root": "0dccdfce214923de382ee80b635c36c2b4ab8400918e25f7a498bfa89108eed0",
+      "dificultad": 1,
+      "nonce": 5,
+      "total_transacciones": 1,
+      "transacciones": [
+        {
+          "tipo": "GENESIS_COGNITIVO",
+          "emisor": "SYSTEM_CELEBRO",
+          "receptor": "CLUSTER_P2P",
+          "descripcion": "Arranque formal de la blockchain neuronal WoldVirtualP2P3D",
+          "hash_semilla": "3b218672129981a04a1db4804536c640f281449eb882a8949b0ea226595de840"
+        }
+      ],
+      "estado_neuronal": {
+        "total_neuronas": 50,
+        "capas": [
+          "ENRN",
+          "RF_SL",
+          "RF_EN",
+          "RNP",
+          "SLRN"
+        ],
+        "version_cluster": "2026.3.1",
+        "consenso": "Proof-of-Neural-Learning (PoNL)"
+      }
+    },
+    {
+      "indice": 1,
+      "hash_bloque": "001be461bfaae21ea1ddc295683b6862f7bbbdf5c75a3d6f89e58bd05ae60ee8",
+      "hash_previo": "085561caa8af289000bd9331d66d4fd5a1e7b5e3115079595fb85410a2ef8634",
+      "merkle_root": "35dd75bb0b54fef98ecc2b4f44e32308f1561ab2fea29134238ffdbde15857a2",
+      "dificultad": 2,
+      "nonce": 184,
+      "total_transacciones": 3,
+      "transacciones": [
+        {
+          "id_tx": "a1a57e3f731e0d6a",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreiejch3q6vicfzqydetwrzwnxatxevspkimtbr24zlvyltxqgc72cy",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "hola lucia",
+            "norma_delta": 8.9626,
+            "estado_emocional": 0.83,
+            "tono": "cálido y comunicativo",
+            "duracion_ms": 67.32
+          }
+        },
+        {
+          "id_tx": "85c474985f9d834d",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreibnhavphwrjfjmmuxqp52lvvxezfrxufb7lzvmueu6peqned72z4y",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "¿puedes  describirte a ti  misma?",
+            "norma_delta": 39.12595,
+            "estado_emocional": -0.774,
+            "tono": "sereno y analítico",
+            "duracion_ms": 45.35
+          }
+        },
+        {
+          "id_tx": "059260751c68955e",
+          "tipo": "ACTUALIZACION_SINAPTICA",
+          "emisor": "CONVERSOR_PSNRCV",
+          "receptor": "CELEBRO_P2P",
+          "cid_ipfs": "bafkreiase3nzb5o3drk4yxlfluhvt4ksx2wx6gvbkrwjdmmtuygqyaidje",
+          "datos": {
+            "modelo": "LucIA-openrouter/free",
+            "prompt_resumen": "¿contestas por  ti misma tras  pasar las respuestas  de openrouter  por tu red n",
+            "norma_delta": 43.44634,
+            "estado_emocional": -0.999,
+            "tono": "sereno y analítico",
+            "duracion_ms": 59.51
+          }
+        }
+      ],
+      "estado_neuronal": {
+        "activas": 50,
+        "deriva_acumulada": 747.600325,
+        "pasos_sesion": 22,
+        "minero": "CelebroLocalNode"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "timestamp_utc": "2026-09-22T09:22:21Z",
+  "raiz_escaneada": "C:\\Users\\User\\Desktop\\WoldVirtualP2P3D_v0.0.01LCV1",
+  "duracion_total_seg": 0.304,
+  "fase1_omitida": false,
+  "purga_forzada": false,
+  "custodia_ipfs": {
+    "procesados": 0,
+    "pinados": 0,
+    "fallidos": 0,
+    "cids": [],
+    "borrados": [],
+    "bytes": 0,
+    "daemon_real": false,
+    "cli_real": false,
+    "errores": [],
+    "duracion_seg": 0.053
+  },
+  "purga_filesystem": {
+    "pycache": 2,
+    "pyc_sueltos": 0,
+    "tmp_ipfs": 0,
+    "chg": 0,
+    "bytes_liberados": 78034,
+    "errores": [],
+    "duracion_seg": 0.251
+  }
+}

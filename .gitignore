@@ -12,6 +12,7 @@
 *.cert
 *.token
 credentials.json
+/.blend
 
 # Caches y compilados de Python
 # ------------------------------------------------------------------------------
@@ -132,3 +133,7 @@ $RECYCLE.BIN/
 .AppleDouble
 .LSOverride
 ._*
+
+# Temporary exclusions
+# ------------------------------------------------------------------------------
+VersionDe_sesion/Sistema_Principal/PRY/actualizacion_0c618589/src/MTBGT/
